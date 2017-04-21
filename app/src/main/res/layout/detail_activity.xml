@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/date_detail"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Sat 15 April 2017" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/premier_league_logo_centred" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/home_team_name_detail"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:text="Man Utd" />
+
+        <TextView
+            android:id="@+id/fixture_time_detail"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="22:00"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            android:maxLines="1"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:id="@+id/away_team_name_detail"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:text="Chelsea" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/days_detail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="2 Days" />
+
+    <TextView
+        android:id="@+id/time_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="01:45:10" />
+</LinearLayout>
